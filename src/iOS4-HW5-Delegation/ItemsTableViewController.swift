@@ -20,7 +20,7 @@ class ItemsTableViewController: UITableViewController,SaveNewData {   //adopt th
     func saveData(data: String) {
         items.append(data)
         tableView.reloadData() // to reload the table
-    }   
+    }
 
     // MARK: - Table view data source
 
